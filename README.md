@@ -17,7 +17,8 @@ The key objective is to create a scalable, reproducible, and maintainable data e
 ---
 
 ## System Architecture
-![system_architecture.png](assets%2Fsystem_architecture.png)
+<img src="system_architecture.png">
+
 
 ---
 
