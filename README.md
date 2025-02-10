@@ -4,31 +4,30 @@ This Python-based project is designed to automate the end-to-end data pipeline f
 
 The key objective is to create a scalable, reproducible, and maintainable data engineering framework that can be extended for various sports analytics use cases. The cleaned and transformed data can be utilized for downstream applications such as business intelligence dashboards, machine learning models, or interactive visualizations.
 
+---
+
 # Key Features:
 
-** Automated Data Collection: Uses Python and Apache Airflow to fetch football data from Wikipedia.
-** Data Cleaning and Transformation: Standardizes raw data for consistency and accuracy.
-** Cloud Integration: Pushes processed data to Azure Data Lake for storage and further analytics.
-** Containerized Workflow: Deployable as a Dockerized application for consistency across environments.
-** Scalability: Designed to handle growing datasets and adapt to different sources with minimal changes.
+- **Automated Data Collection**: Uses Python and Apache Airflow to fetch football data from Wikipedia.
+- **Data Cleaning and Transformation**: Standardizes raw data for consistency and accuracy.
+- **Cloud Integration**: Pushes processed data to Azure Data Lake for storage and further analytics.
+- **Containerized Workflow**: Deployable as a Dockerized application for consistency across environments.
+- **Scalability**: Designed to handle growing datasets and adapt to different sources with minimal changes.
 
-## Table of Contents
-
-1. [System Architecture](#system-architecture)
-2. [Requirements](#requirements)
-3. [Getting Started](#getting-started)
-4. [Running the Code With Docker](#running-the-code-with-docker)
-5. [How It Works](#how-it-works)
-
+---
 
 ## System Architecture
 ![system_architecture.png](assets%2Fsystem_architecture.png)
+
+---
 
 ## Requirements
 - Python 3.9 (minimum)
 - Docker
 - PostgreSQL
 - Apache Airflow 2.6 (minimum)
+
+---
 
 ## Getting Started
 
@@ -41,7 +40,8 @@ The key objective is to create a scalable, reproducible, and maintainable data e
    ```bash
    pip install -r requirements.txt
    ```
-   
+---
+
 ## Running the Code With Docker
 
 1. Start your services on Docker with
