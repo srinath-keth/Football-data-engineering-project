@@ -51,8 +51,18 @@ The key objective is to create a scalable, reproducible, and maintainable data e
    ``` 
 2. Trigger the DAG on the Airflow UI.
 
+---
+
 ## How It Works
 1. Fetches data from Wikipedia.
 2. Cleans the data.
 3. Transforms the data.
 4. Pushes the data to Azure Data Lake.
+
+---
+
+## Dashboard
+
+<img src="dashboard.png">
+
+
