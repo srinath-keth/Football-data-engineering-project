@@ -1,4 +1,4 @@
-# Football-data-engineering-project
+# Football Data Engineering
 
 This Python-based project is designed to automate the end-to-end data pipeline for extracting, transforming, and loading (ETL) football-related data. Using Apache Airflow, the project crawls historical and real-time football data from Wikipedia, applies cleaning and transformation processes, and stores the results in Azure Data Lake for further analysis and reporting. This project demonstrates a modern data engineering workflow by integrating tools like Docker, PostgreSQL, and Airflow to handle data pipelines efficiently.
 
